@@ -7,23 +7,60 @@
 
 import UIKit
 
-class UserViewController: UIViewController {
+final class UserViewController: UIViewController {
+    private let tableView = UITableView()
+    private var viewModel: UserViewModel!
+
+    init(viewModel: UserViewModel) {
+        super.init(nibName: nil, bundle: nil)
+        self.viewModel = viewModel
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupUI()
+        bindViewModel()
+        viewModel.fetchUsers()
     }
-    
 
-    /*
-    // MARK: - Navigation
+    private func setupUI() {
+        view.backgroundColor = .white
+        title = "Users"
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        tableView.frame = view.bounds
+        tableView.dataSource = self
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        view.addSubview(tableView)
     }
-    */
 
+    private func bindViewModel() {
+        viewModel.onUsersFetched = { [weak self] in
+            self?.tableView.reloadData()
+        }
+
+        viewModel.onError = { [weak self] message in
+            let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default))
+            self?.present(alert, animated: true)
+        }
+    }
 }
+
+// MARK: - UITableViewDataSource
+extension UserViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return viewModel.users.count
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let user = viewModel.users[indexPath.row]
+        cell.textLabel?.text = user.name
+        return cell
+    }
+}
+

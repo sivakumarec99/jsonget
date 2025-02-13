@@ -17,6 +17,17 @@
 		01E7D0C52D5C75EE000A6B05 /* JsonServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0C42D5C75EE000A6B05 /* JsonServiceTests.swift */; };
 		01E7D0CF2D5C75EE000A6B05 /* JsonServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0CE2D5C75EE000A6B05 /* JsonServiceUITests.swift */; };
 		01E7D0D12D5C75EE000A6B05 /* JsonServiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0D02D5C75EE000A6B05 /* JsonServiceUITestsLaunchTests.swift */; };
+		01E7D0E02D5C7D59000A6B05 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0DF2D5C7D59000A6B05 /* User.swift */; };
+		01E7D0E32D5C7DB1000A6B05 /* GetUserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0E22D5C7DB1000A6B05 /* GetUserUseCase.swift */; };
+		01E7D0E72D5C7DEA000A6B05 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0E62D5C7DEA000A6B05 /* APIClient.swift */; };
+		01E7D0E92D5C7E06000A6B05 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0E82D5C7E06000A6B05 /* APIService.swift */; };
+		01E7D0EC2D5C7E28000A6B05 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0EB2D5C7E28000A6B05 /* UserRepository.swift */; };
+		01E7D0EF2D5C7E50000A6B05 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0EE2D5C7E50000A6B05 /* UserViewModel.swift */; };
+		01E7D0F42D5C7F70000A6B05 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0F32D5C7F70000A6B05 /* UserViewController.swift */; };
+		01E7D0F62D5CAC9B000A6B05 /* SampleUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0F52D5CAC9B000A6B05 /* SampleUserViewController.swift */; };
+		01E7D0FE2D5CB050000A6B05 /* SampleUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D0FD2D5CB050000A6B05 /* SampleUserViewModel.swift */; };
+		01E7D1012D5CB298000A6B05 /* sampleUserUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D1002D5CB298000A6B05 /* sampleUserUsecase.swift */; };
+		01E7D1042D5CB98F000A6B05 /* SampleUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7D1032D5CB98F000A6B05 /* SampleUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,17 @@
 		01E7D0CA2D5C75EE000A6B05 /* JsonServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E7D0CE2D5C75EE000A6B05 /* JsonServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonServiceUITests.swift; sourceTree = "<group>"; };
 		01E7D0D02D5C75EE000A6B05 /* JsonServiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonServiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01E7D0DF2D5C7D59000A6B05 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		01E7D0E22D5C7DB1000A6B05 /* GetUserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserUseCase.swift; sourceTree = "<group>"; };
+		01E7D0E62D5C7DEA000A6B05 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		01E7D0E82D5C7E06000A6B05 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		01E7D0EB2D5C7E28000A6B05 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		01E7D0EE2D5C7E50000A6B05 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		01E7D0F32D5C7F70000A6B05 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		01E7D0F52D5CAC9B000A6B05 /* SampleUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUserViewController.swift; sourceTree = "<group>"; };
+		01E7D0FD2D5CB050000A6B05 /* SampleUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUserViewModel.swift; sourceTree = "<group>"; };
+		01E7D1002D5CB298000A6B05 /* sampleUserUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleUserUsecase.swift; sourceTree = "<group>"; };
+		01E7D1032D5CB98F000A6B05 /* SampleUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,8 @@
 		01E7D0A92D5C75EB000A6B05 /* JsonService */ = {
 			isa = PBXGroup;
 			children = (
+				01E7D0F82D5CACBC000A6B05 /* Sample */,
+				01E7D0DD2D5C7CC1000A6B05 /* User */,
 				01E7D0AA2D5C75EB000A6B05 /* AppDelegate.swift */,
 				01E7D0AC2D5C75EB000A6B05 /* SceneDelegate.swift */,
 				01E7D0AE2D5C75EB000A6B05 /* ViewController.swift */,
@@ -128,6 +152,111 @@
 				01E7D0D02D5C75EE000A6B05 /* JsonServiceUITestsLaunchTests.swift */,
 			);
 			path = JsonServiceUITests;
+			sourceTree = "<group>";
+		};
+		01E7D0DD2D5C7CC1000A6B05 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D0F02D5C7E66000A6B05 /* Views */,
+				01E7D0ED2D5C7E3B000A6B05 /* ViewModel */,
+				01E7D0EA2D5C7E13000A6B05 /* Repository */,
+				01E7D0E42D5C7DCD000A6B05 /* Network */,
+				01E7D0E12D5C7D91000A6B05 /* Usecases */,
+				01E7D0DE2D5C7CD1000A6B05 /* Entities */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		01E7D0DE2D5C7CD1000A6B05 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D0DF2D5C7D59000A6B05 /* User.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		01E7D0E12D5C7D91000A6B05 /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D0E22D5C7DB1000A6B05 /* GetUserUseCase.swift */,
+			);
+			path = Usecases;
+			sourceTree = "<group>";
+		};
+		01E7D0E42D5C7DCD000A6B05 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D0E62D5C7DEA000A6B05 /* APIClient.swift */,
+				01E7D0E82D5C7E06000A6B05 /* APIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		01E7D0EA2D5C7E13000A6B05 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D0EB2D5C7E28000A6B05 /* UserRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		01E7D0ED2D5C7E3B000A6B05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D0EE2D5C7E50000A6B05 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		01E7D0F02D5C7E66000A6B05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D0F32D5C7F70000A6B05 /* UserViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01E7D0F82D5CACBC000A6B05 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D0FA2D5CB016000A6B05 /* ViewModel */,
+				01E7D0F92D5CACC8000A6B05 /* Views */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		01E7D0F92D5CACC8000A6B05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D0F52D5CAC9B000A6B05 /* SampleUserViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01E7D0FA2D5CB016000A6B05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D1022D5CB971000A6B05 /* Entities */,
+				01E7D0FF2D5CB282000A6B05 /* Usecase */,
+				01E7D0FD2D5CB050000A6B05 /* SampleUserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		01E7D0FF2D5CB282000A6B05 /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D1002D5CB298000A6B05 /* sampleUserUsecase.swift */,
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		01E7D1022D5CB971000A6B05 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				01E7D1032D5CB98F000A6B05 /* SampleUser.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +390,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E7D1012D5CB298000A6B05 /* sampleUserUsecase.swift in Sources */,
 				01E7D0AF2D5C75EB000A6B05 /* ViewController.swift in Sources */,
+				01E7D0E72D5C7DEA000A6B05 /* APIClient.swift in Sources */,
+				01E7D0EC2D5C7E28000A6B05 /* UserRepository.swift in Sources */,
+				01E7D1042D5CB98F000A6B05 /* SampleUser.swift in Sources */,
+				01E7D0F42D5C7F70000A6B05 /* UserViewController.swift in Sources */,
+				01E7D0EF2D5C7E50000A6B05 /* UserViewModel.swift in Sources */,
+				01E7D0F62D5CAC9B000A6B05 /* SampleUserViewController.swift in Sources */,
 				01E7D0AB2D5C75EB000A6B05 /* AppDelegate.swift in Sources */,
 				01E7D0AD2D5C75EB000A6B05 /* SceneDelegate.swift in Sources */,
+				01E7D0FE2D5CB050000A6B05 /* SampleUserViewModel.swift in Sources */,
+				01E7D0E02D5C7D59000A6B05 /* User.swift in Sources */,
 				01E7D0B52D5C75EB000A6B05 /* JsonService.xcdatamodeld in Sources */,
+				01E7D0E92D5C7E06000A6B05 /* APIService.swift in Sources */,
+				01E7D0E32D5C7DB1000A6B05 /* GetUserUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
